@@ -7,7 +7,7 @@ export default function About() {
       <div className="content">
         <h3 className="title">LEVENT BALIK</h3>
         <p>
-        Çeşme'de taze balıkların, usta şeflerin ve yılların sunduğu tecrübenin lezzet noktası...
+        Çeşme`&apos;`de taze balıkların, usta şeflerin ve yılların sunduğu tecrübenin lezzet noktası...
         </p>
       </div>
     </section>
