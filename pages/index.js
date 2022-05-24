@@ -11,10 +11,6 @@ import Footer from "../components/Footer"
 
 export default function Home() {
 
-  useEffect(() => {
-    getMenuItems()
-  }, [])
-
   const [menu, setMenu] = useState([])
 
   const getMenuItems = async () => {
@@ -22,8 +18,14 @@ export default function Home() {
       const {data} = await axios.get('https://leventbalik.herokuapp.com/api/menu/')
       setMenu(data)
     }
-    catch(e){}
+    catch(e){
+      console.log(e)
+    }
   }
+
+  useEffect(() => {
+    getMenuItems()
+  }, [])
 
   return (
     <>
@@ -31,7 +33,7 @@ export default function Home() {
         <title>Levent Balik Cesme</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name='description' content='Levent Balik Seafood Restaurant Cesme/Izmir TURKEY'/>
-        <meta name='keywords' content='levent, balik, levent balik, cesme, izmir, restaurant, turkey, 458cob, 458dev'/>
+        <meta name='keywords' content='levent, cesme, cesmebalik, nimakhabbazi, 458, balik, levent balik, cesme, izmir, restaurant, turkey, 458cob, 458dev'/>
       </Head>
       <Nav/>
       <Main/>

@@ -5,9 +5,9 @@ export default function About() {
         <img src="images/about.png" id="aboutImg" alt='leventbalik' />
       </div>
       <div className="content">
-        <h3 className="title">welcome to Levent Balik</h3>
+        <h3 className="title">LEVENT BALIK</h3>
         <p>
-        The address of the fresh fish in Cesme/Izmir.
+        Çeşme'de taze balıkların, usta şeflerin ve yılların sunduğu tecrübenin lezzet noktası...
         </p>
       </div>
     </section>

@@ -1,7 +1,7 @@
 export default function Nav() {
   return (
     <section className="header">
-        <a href="#" className="logo"> <i className="fas fa-utensils" /> LEVENT BALIK </a>
+        <h2 className="logo">LEVENT BALIK </h2>
         <nav className="navbar">
               <a href="#about">About</a>
               <a href="#menu">Menu</a>

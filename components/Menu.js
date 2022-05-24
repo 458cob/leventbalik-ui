@@ -16,12 +16,12 @@ export default function Menu({ data }) {
     <section className="menu" id="menu">
       <div className="heading">
         <span>levent balik</span>
-        <h3>menu</h3>
+        <h3>menü</h3>
       </div>
       <div className="swiper menu-slider">
         <div className="swiper-wrapper">
           <div className="swiper-slide slide">
-            <h3 className="title">Dinners</h3>
+            <h3 className="title">Yemek</h3>
             <div className="box-container">
               {dinners.map((item) => {
                 return (
@@ -37,7 +37,7 @@ export default function Menu({ data }) {
           </div>
 
           <div className="swiper-slide slide">
-            <h3 className="title">Entree Starter</h3>
+            <h3 className="title">Ara Sıcak</h3>
             <div className="box-container">
               {entree_starter.map((item) => {
                 return (
@@ -53,7 +53,7 @@ export default function Menu({ data }) {
           </div>
 
           <div className="swiper-slide slide">
-            <h3 className="title">Appetizer</h3>
+            <h3 className="title">Meze</h3>
             <div className="box-container">
               {appetizer.map((item) => {
                 return (
@@ -69,7 +69,7 @@ export default function Menu({ data }) {
           </div>
 
           <div className="swiper-slide slide">
-            <h3 className="title">Drinks</h3>
+            <h3 className="title">içecek</h3>
             <div className="box-container">
               {drinks.map((item) => {
                 return (
