@@ -13,7 +13,6 @@ export default function Footer() {
         <div className="icons">
           <h3>Email</h3>
           <p>contact@cesmebalik.com</p>
-          <p>me@458cob.com</p>
         </div>
         <div className="icons">
           <h3>Adres</h3>
@@ -26,9 +25,6 @@ export default function Footer() {
         </div>
       </div>
       <div className="share">
-        <a href="https://getir.com/yemek/restoran/levent-balik-cesme-16-eylul-mah-cesme-izmir-2/">
-          GETIR YEMEK
-        </a>
         <a href="https://www.instagram.com/leventbalikevi">
           INSTAGRAM
         </a>
