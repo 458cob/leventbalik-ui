@@ -73,11 +73,11 @@ section{
 .btn{
    margin-top: 1rem;
    display: inline-block;
-   background: #ede7e7; 
+   background: #5a69f7; 
    border: 4px solid #c4c7e0;
    opacity: 0.95;
-   border-radius: 4px;
-   color:var(--black);
+   border-radius: 40px;
+   color:var(--white);
    font-size: 2rem;
    cursor: pointer;
    padding: 1.1rem 6rem;
