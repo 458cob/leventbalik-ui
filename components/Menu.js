@@ -3,6 +3,7 @@ export default function Menu({ data }) {
   let fish           = []
   let grill          = []
   let appetizer      = []
+  let soup           = []
   let entree_starter = []
   let salad          = []
   let beer           = []
@@ -14,6 +15,7 @@ export default function Menu({ data }) {
     if      (item.category === 'fish') fish.push(item)
     else if (item.category === 'grill') grill.push(item)
     else if (item.category === 'appetizer') appetizer.push(item)
+    else if (item.category === 'soup') soup.push(item)
     else if (item.category === 'entree_starter') entree_starter.push(item)
     else if (item.category === 'salad') salad.push(item)
     else if (item.category === 'beer') beer.push(item)
@@ -66,6 +68,22 @@ export default function Menu({ data }) {
             <h3 className="title">Meze</h3>
             <div className="box-container">
               {appetizer.map((item) => {
+                return (
+                  <div className="box" key={item._id}>
+                    <div className="info">
+                      <h3>{item.name}</h3>
+                    </div>
+                    <div className="price">₺{item.price}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="swiper-slide slide">
+            <h3 className="title">Çorba</h3>
+            <div className="box-container">
+              {soup.map((item) => {
                 return (
                   <div className="box" key={item._id}>
                     <div className="info">
