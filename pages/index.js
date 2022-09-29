@@ -15,8 +15,9 @@ export default function Home() {
 
   const getMenuItems = async () => {
     try {
-      const {data} = await axios.get('https://leventbalik.herokuapp.com/api/menu/')
-      setMenu(data)
+      const {data} = await axios.get('https://leventbalikapi.herokuapp.com/menu/')
+      console.log(data)
+      setMenu(data.data)
     }
     catch(e){
       console.log(e)
